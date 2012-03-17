@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E89E31F14E41B0C00B7C8CA /* libopencv_imgproc.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E89E31E14E41B0C00B7C8CA /* libopencv_imgproc.2.3.1.dylib */; };
+		5E89E32B14E7A6A600B7C8CA /* GrayScaleImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E89E32A14E7A6A600B7C8CA /* GrayScaleImage.cpp */; };
+		5E997A7C14E40EC300D7549E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E997A7B14E40EC300D7549E /* main.cpp */; };
+		5E997A7E14E40EC300D7549E /* OpticalFlow.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E997A7D14E40EC300D7549E /* OpticalFlow.1 */; };
+		5E997A8914E40F2700D7549E /* libopencv_core.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E997A8814E40F2700D7549E /* libopencv_core.2.3.1.dylib */; };
+		5E997A8B14E40F4000D7549E /* libopencv_highgui.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E997A8A14E40F4000D7549E /* libopencv_highgui.2.3.1.dylib */; };
+		5EC73CA414E8DDD500A32E91 /* OneLayerOpticalFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC73CA314E8DDD500A32E91 /* OneLayerOpticalFlow.cpp */; };
+		5EC73CAD14ECA19600A32E91 /* GrayScaleImageTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC73CAC14ECA19600A32E91 /* GrayScaleImageTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E997A7514E40EC300D7549E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5E997A7E14E40EC300D7549E /* OpticalFlow.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E89E31214E4105500B7C8CA /* OneLayerOpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneLayerOpticalFlow.h; sourceTree = "<group>"; };
+		5E89E31E14E41B0C00B7C8CA /* libopencv_imgproc.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.3.1.dylib; path = usr/local/lib/libopencv_imgproc.2.3.1.dylib; sourceTree = SDKROOT; };
+		5E89E32614E77C9600B7C8CA /* VectorField2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorField2D.h; sourceTree = "<group>"; };
+		5E89E32914E7A24F00B7C8CA /* GrayScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayScaleImage.h; sourceTree = "<group>"; };
+		5E89E32A14E7A6A600B7C8CA /* GrayScaleImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrayScaleImage.cpp; sourceTree = "<group>"; };
+		5E997A7714E40EC300D7549E /* OpticalFlow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpticalFlow; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E997A7B14E40EC300D7549E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E997A7D14E40EC300D7549E /* OpticalFlow.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpticalFlow.1; sourceTree = "<group>"; };
+		5E997A8814E40F2700D7549E /* libopencv_core.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.3.1.dylib; path = usr/local/lib/libopencv_core.2.3.1.dylib; sourceTree = SDKROOT; };
+		5E997A8A14E40F4000D7549E /* libopencv_highgui.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.3.1.dylib; path = usr/local/lib/libopencv_highgui.2.3.1.dylib; sourceTree = SDKROOT; };
+		5EC73CA314E8DDD500A32E91 /* OneLayerOpticalFlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OneLayerOpticalFlow.cpp; sourceTree = "<group>"; };
+		5EC73CAB14EC0BAD00A32E91 /* GrayScaleImageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayScaleImageTest.h; sourceTree = "<group>"; };
+		5EC73CAC14ECA19600A32E91 /* GrayScaleImageTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrayScaleImageTest.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E997A7414E40EC300D7549E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E89E31F14E41B0C00B7C8CA /* libopencv_imgproc.2.3.1.dylib in Frameworks */,
+				5E997A8B14E40F4000D7549E /* libopencv_highgui.2.3.1.dylib in Frameworks */,
+				5E997A8914E40F2700D7549E /* libopencv_core.2.3.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E997A6C14E40EC300D7549E = {
+			isa = PBXGroup;
+			children = (
+				5E89E31E14E41B0C00B7C8CA /* libopencv_imgproc.2.3.1.dylib */,
+				5E997A8A14E40F4000D7549E /* libopencv_highgui.2.3.1.dylib */,
+				5E997A8814E40F2700D7549E /* libopencv_core.2.3.1.dylib */,
+				5E997A7A14E40EC300D7549E /* OpticalFlow */,
+				5E997A7814E40EC300D7549E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E997A7814E40EC300D7549E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E997A7714E40EC300D7549E /* OpticalFlow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E997A7A14E40EC300D7549E /* OpticalFlow */ = {
+			isa = PBXGroup;
+			children = (
+				5EC73CAA14EC0B8300A32E91 /* Test */,
+				5E997A7D14E40EC300D7549E /* OpticalFlow.1 */,
+				5E997A7B14E40EC300D7549E /* main.cpp */,
+				5E89E31214E4105500B7C8CA /* OneLayerOpticalFlow.h */,
+				5EC73CA314E8DDD500A32E91 /* OneLayerOpticalFlow.cpp */,
+				5E89E32914E7A24F00B7C8CA /* GrayScaleImage.h */,
+				5E89E32A14E7A6A600B7C8CA /* GrayScaleImage.cpp */,
+				5E89E32614E77C9600B7C8CA /* VectorField2D.h */,
+			);
+			path = OpticalFlow;
+			sourceTree = "<group>";
+		};
+		5EC73CAA14EC0B8300A32E91 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5EC73CAB14EC0BAD00A32E91 /* GrayScaleImageTest.h */,
+				5EC73CAC14ECA19600A32E91 /* GrayScaleImageTest.cpp */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E997A7614E40EC300D7549E /* OpticalFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E997A8114E40EC300D7549E /* Build configuration list for PBXNativeTarget "OpticalFlow" */;
+			buildPhases = (
+				5E997A7314E40EC300D7549E /* Sources */,
+				5E997A7414E40EC300D7549E /* Frameworks */,
+				5E997A7514E40EC300D7549E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpticalFlow;
+			productName = OpticalFlow;
+			productReference = 5E997A7714E40EC300D7549E /* OpticalFlow */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E997A6E14E40EC300D7549E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5E997A7114E40EC300D7549E /* Build configuration list for PBXProject "OpticalFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E997A6C14E40EC300D7549E;
+			productRefGroup = 5E997A7814E40EC300D7549E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E997A7614E40EC300D7549E /* OpticalFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E997A7314E40EC300D7549E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E997A7C14E40EC300D7549E /* main.cpp in Sources */,
+				5E89E32B14E7A6A600B7C8CA /* GrayScaleImage.cpp in Sources */,
+				5EC73CA414E8DDD500A32E91 /* OneLayerOpticalFlow.cpp in Sources */,
+				5EC73CAD14ECA19600A32E91 /* GrayScaleImageTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E997A7F14E40EC300D7549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E997A8014E40EC300D7549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E997A8214E40EC300D7549E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/opencv,
+					"/usr/local/include/eigen3/**",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/opencv/2.3.1/lib/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/eigen3/** /usr/local/include";
+			};
+			name = Debug;
+		};
+		5E997A8314E40EC300D7549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/opencv,
+					"/usr/local/include/eigen3/**",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/opencv/2.3.1/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include/eigen3/** /usr/local/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E997A7114E40EC300D7549E /* Build configuration list for PBXProject "OpticalFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E997A7F14E40EC300D7549E /* Debug */,
+				5E997A8014E40EC300D7549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E997A8114E40EC300D7549E /* Build configuration list for PBXNativeTarget "OpticalFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E997A8214E40EC300D7549E /* Debug */,
+				5E997A8314E40EC300D7549E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E997A6E14E40EC300D7549E /* Project object */;
+}
